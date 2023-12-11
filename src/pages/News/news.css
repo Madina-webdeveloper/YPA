@@ -1,0 +1,30 @@
+.news_title2{
+    padding-top: 50px;
+}
+.news_text{
+    padding-top: 12px;
+    line-height: 25px;
+
+}
+
+.news{
+    padding-bottom: 100px;
+    padding-top: 200px;
+    font-size:20px
+}
+.news_ul{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.news_ul_li{
+    line-height: 24px;
+}
+
+.news_tt{
+    background-image:url("../../assets/images/news.webp");
+    height: 150px;
+    color: white;
+}

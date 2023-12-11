@@ -1,0 +1,36 @@
+.members{
+    padding-top: 150px;
+}
+.box{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: initial;
+}
+
+.box_wrap{
+    padding: 20px;
+}
+
+.box_wrap_ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+.box_wrap_ul li{
+    font-size: 18px;
+}
+
+.box_wrap_title{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 480px) and (min-width: 360px){
+    .box{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
